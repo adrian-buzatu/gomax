@@ -1,0 +1,44 @@
+{
+    "menu": [
+        {
+            "Products" : [
+                {
+                    "Create": "/admin/products/create",
+                    "List": "/admin/products/"
+                }
+            ],
+
+            "Categories" : [
+                {
+                    "Create": "/admin/categories/create",
+                    "List": "/admin/categories/"
+                }
+            ],
+
+            "Banners" : [
+                {
+                    "Create": "/admin/banners/create",
+                    "List": "/admin/banners/"
+                }
+            ],
+            
+             "Tags" : [
+                {
+                    "Create": "/admin/tags/edit/0",
+                    "List": "/admin/tags/"
+                }
+            ],
+
+            "Admin" : [
+                {
+                    "Create User": "/admin/users/create",
+                    "List Users": "/admin/users/",
+                    "Change My Password": "/admin/profile/change_pass",
+                    "Save Db": "/admin/settings/database_save",
+                    "Restore Db": "/admin/settings/databse_restore",
+                    "Log Out": "/admin/logout"
+                }
+            ]
+        }
+    ]
+}

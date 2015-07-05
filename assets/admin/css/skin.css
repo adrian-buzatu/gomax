@@ -1,0 +1,56 @@
+html, div, map, dt, isindex, form, header, aside, section, section, article, footer {
+	display: block;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	background: #F8F8F8;
+	font-size: 12px;
+}
+.header{
+	height: 55px;
+	width: 100%;
+	background: #222222 url(../images/header_bg.png) repeat-x;
+}
+.header__left{
+	float: left;
+}
+.header__right{
+	float: right;
+}
+.header__right:after{
+	display: block;
+	clear: both;
+}
+.content__left{
+	min-width: 300px;
+        float: left;
+}
+.content__left h3{
+	font: 15px arial, sans-serif;
+}
+.content__middleright{
+    padding: 30px;
+    overflow: hidden;
+}
+.content__middleright:after{
+    display: block;
+    clear: both;
+}
+.tags__form{
+    min-width: 350px;
+}
+.content__middleright .table > thead > tr > th {
+    background: #fff;
+    height: 51px;
+    vertical-align: middle;
+}
+.table > tbody > tr:nth-child(odd) > td{
+      background-color: #B5E5EF;
+}
+.table > tbody > tr:nth-child(even) > td{
+      background-color: #ffe;
+}

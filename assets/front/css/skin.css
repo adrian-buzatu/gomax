@@ -1,0 +1,105 @@
+@import url("//hello.myfonts.net/count/2e360b");
+
+/**
+* reset here
+*/
+
+/**
+* end reset
+*/
+
+/** Common rules*/
+@font-face {
+    font-family: 'Novecentosanswide-Light';
+    src: url('fonts/novecento/2E360B_0_0.eot');
+    src: 
+        url('fonts/novecento/2E360B_0_0.eot?#iefix') format('embedded-opentype'),
+        url('fonts/novecento/2E360B_0_0.woff2') format('woff2'),
+        url('fonts/novecento/2E360B_0_0.woff') format('woff'),
+        url('fonts/novecento/2E360B_0_0.ttf') format('truetype');
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    float: left;
+}
+
+/** End common rules*/
+
+/** Body*/
+
+body {}
+
+/** Header */
+
+.header{
+    
+}
+
+.header__promotions{
+    padding: 10px;
+    background: #b9e643;
+    color: #fff;
+    font-family: Novecentosanswide-Light;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+}
+
+.header__info{
+    
+}
+
+.header__menu{
+    background: #fff;
+}
+
+
+
+.header__gallery{
+    
+}
+
+.header__search{
+    
+}
+
+/** Content */
+
+.content {
+    
+}
+
+.homepage{
+    
+}
+
+.homepage__qualities{
+    
+}
+
+/** End Content*/
+
+/** Footer */
+
+.footer{
+    
+}
+
+/** End Footer. */
+
+/** Page footer*/
+
+/** End page footer*/ 
